@@ -2,7 +2,7 @@
 
 A specialized Next.js web application for searching, filtering, and downloading academic papers from arXiv with intelligent relevance scoring.
 
-https://irpanxd.github.io/arxiv-paper-finder/
+https://hardincode.github.io/arxiv-paper-finder/
 
 ## Features
 

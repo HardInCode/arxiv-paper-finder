@@ -1235,8 +1235,10 @@ export default function SearchForm({ setResults, setLoading, setError }: SearchF
       <div>
               <h3 className="font-medium text-amber-800 dark:text-amber-300">GitHub Pages Limitation</h3>
               <p className="text-sm text-amber-700 dark:text-amber-400 mt-1">
-                The hosted version is running in offline mode with limited sample data (maximum 50 results). 
+              </br>
+                The hosted version is running mode with limited sample data (maximum 50 results), and there is a possibility of the offline mode (using mock data) activating automatically.
                 For full functionality including unlimited results and direct arXiv access, please run this application locally.
+                
               </p>
             </div>
     </div>

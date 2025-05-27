@@ -1147,7 +1147,7 @@ export default function SearchForm({ setResults, setLoading, setError }: SearchF
             className={`w-full px-3 py-2.5 border border-gray-300 rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary dark:bg-gray-700 dark:border-gray-600 dark:text-white ${
               searchMode === 'preset' ? 'bg-gray-100 dark:bg-gray-800 opacity-60' : ''
             }`}
-            placeholder={searchMode === 'preset' ? 'Using preset search terms...' : 'e.g., quantum computing, neural networks'}
+            placeholder={searchMode === 'preset' ? 'Using preset search terms...' : 'e.g., Artificial Intelligence, neural networks'}
             value={searchTerms}
             onChange={(e) => setSearchTerms(e.target.value)}
             disabled={searchMode === 'preset'}
